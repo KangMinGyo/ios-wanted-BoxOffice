@@ -7,7 +7,7 @@
 
 ## 💻 기능구현방식
 ### 첫번째화면_박스오피스 순위
-#### TableView를 이용해 박스오피스 순위를 보여줍니다.
+#### 1. TableView를 이용해 박스오피스 순위를 보여줍니다.
 1. Poster Image
 2. 영화 제목
 3. 개봉일
@@ -16,13 +16,13 @@
 6. 누적 관객수
 
 
-#### URLSession을 이용해 BoxOfficeService에서 Networking 합니다.
+#### 2. URLSession을 이용해 BoxOfficeService에서 Networking 합니다.
  1. 박스오피스 순위를 불러와 영화코드를 얻습니다.
  2. 영화코드를 이용해 영화 상세정보를 얻습니다.
  3. 영화이름을 이용해 영화 포스터 이미지를 얻습니다.
 
 
-#### NSCache를 이용해 Poster Image를 캐싱합니다.
+#### 3. NSCache를 이용해 Poster Image를 캐싱합니다.
 
 
 ### 두번째화면_영화 상세정보 
